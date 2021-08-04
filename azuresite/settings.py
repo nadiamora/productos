@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'adminis'
+    
 ]
 
 MIDDLEWARE = [
@@ -78,7 +80,7 @@ WSGI_APPLICATION = 'azuresite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'Tienda.db',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
